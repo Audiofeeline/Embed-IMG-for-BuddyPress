@@ -1,1 +1,0 @@
-# Embed-IMG-for-BuddyPress
