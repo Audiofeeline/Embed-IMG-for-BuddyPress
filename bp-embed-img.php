@@ -4,6 +4,7 @@ add_filter('bp_get_activity_content','bp_embed_img', 9);
 add_filter('bp_get_the_topic_post_content','bp_embed_img', 9);
 function bp_embed_img($content) {
 
+	// Fix needed to remove "bp_activity_make_nofollow_filter"
 
 if (stripos($content, 'https') !== FALSE) {
 
